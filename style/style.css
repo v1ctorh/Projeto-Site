@@ -1,0 +1,128 @@
+body{
+    background: #ccc;
+    font-family: Arial, sans-serif;
+   margin: 0;
+    
+}   
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 30px 0 0;
+}
+
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin: 2px;
+}
+
+.hero nav a{
+    display:block;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 13px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.hero nav a:hover{
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.hero-content p a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p a{
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    
+   
+}
+
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 7px 7px 7px #000000;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 5px;
+
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color:white;
+    padding: 15px;
+    margin-top: 15px;  
+    overflow: auto;
+}
+
+.card{
+    float: left;
+   width: 32%;
+   box-sizing: border-box;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+   display: block;
+}
+
+.card p{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+   text-indent: 5px;
+   letter-spacing: 1px;
+   
+}
+
+.pstyle p{
+    text-align: center;
+    background-color: #4e4e4e;
+    height: 100px;
+    margin: 20px;   
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    line-height: 80px;
+    font-size: 15px;
+}
